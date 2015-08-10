@@ -1,0 +1,30 @@
+﻿<tile>
+  <visual>
+
+    <binding template="TileSmall">
+      <image src="https://www.thatconference.com/images/Nav-Tree.png" hint-align="center" />
+    </binding>
+
+    <binding template="TileMedium">
+      <text hint-style="captionSubtle">Medium Tile</text>
+      <image src="https://www.thatconference.com/images/Nav-Tree.png" hint-removeMargin="true" />
+      
+    </binding>
+
+    <binding template="TileWide">
+            <text hint-style="subtitle">Welcome to: ThatConference!
+      </text>
+      <text hint-style="captionSubtle">Wide tile</text>
+      <image src="https://www.thatconference.com/images/Nav-Tree.png" hint-removeMargin="true" />
+    </binding>
+
+    <binding template="TileLarge">
+      <text hint-style="subtitle">Welcome to:</text>
+      <text hint-style="subtitle">ThatConference!
+      </text>
+      <text hint-style="captionSubtle">Large tile</text>
+      <image src="https://www.thatconference.com/images/Nav-Tree.png" hint-removeMargin="true" />
+    </binding>
+
+  </visual>
+</tile>
